@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <header class="sidebar">
+            <h1 class="logo"></h1>
+            <nav>
+                <ul class="menu">
+                    <li class="active">
+                        <a href="#" >
+                            <i class="fas fa-tachometer-alt"></i>
+                            <p>Dashboard</p>
+                        </a>                    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-user"></i>
+                            <p>Profile</p>
+                        </a>                    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Statistics</p>
+                        </a>                    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-briefcase"></i>
+                            <p>Careers</p>
+                        </a>                    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-question-circle"></i>
+                            <p>FAQ</p>
+                        </a>                    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-star"></i>
+                            <p>Testimonials</p>
+                        </a>                    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-cog"></i>
+                            <p>Settings</p>
+                        </a>                    
+                    </li>                    
+                    <li class="logout">
+                        <a href="#">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <p>Logout</p>
+                        </a>                    
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main--content">
+            <section class="header--wrapper">
+                <article class="header--title">
+                    <p>Primary</p>
+                    <h2>Dashboard</h2>
+                </article>
+                <article class="user--info">
+                    <article class="searh--box">
+                        <i class="fa-solid fa-search"></i>
+                        <input type="text" placeholder="Search">
+                    </article>
+                    <img src="" alt="">
+                </article>
+            </section>
+            <section class="card--container">
+                <h3 class="main--title">Today's data</h3>
+                <article class="card--wrapper">
+                    <article class="payment--card light-red" >
+                        <article class="card--header">
+                            <article class="amount">
+                                <p class="title">Payment amount</p>
+                                <p class="amount--value">$500.00</p>
+                            </article>
+                            <i class="fas fa-dollar-sign icon"></i>
+                        </article>
+                        <p class="card-detail">**** **** **** 3484</p>
+                    </article>
+                    <article class="payment--card light-purple" >
+                        <article class="card--header">
+                            <article class="amount">
+                                <p class="title">Payment order</p>
+                                <p class="amount--value">$200.00</p>
+                            </article>
+                            <i class="fas fa-list icon dark-purple"></i>
+                        </article>
+                        <p class="card-detail">**** **** **** 5542</p>
+                    </article>
+                    <article class="payment--card light-green" >
+                        <article class="card--header">
+                            <article class="amount">
+                                <p class="title">Payment customer</p>
+                                <p class="amount--value">$350.00</p>
+                            </article>
+                            <i class="fas fa-users icon dark-green"></i>
+                        </article>
+                        <p class="card-detail">**** **** **** 8896</p>
+                    </article>
+                    <article class="payment--card light-blue" >
+                        <article class="card--header">
+                            <article class="amount">
+                                <p class="title">Payment proceed</p>
+                                <p class="amount--value">$150.00</p>
+                            </article>
+                            <i class="fas fa-check icon dark-blue"></i>
+                        </article>
+                        <p class="card-detail">**** **** **** 7745</p>
+                    </article>
+                </article>
+            </section>
+            <section class="tabular--wrapper">
+                <h3 class="main--title">Finance Data</h3>
+                <article class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Transaction Type</th>
+                                <th>Description</th>
+                                <th>Amount</th>
+                                <th>Categoty</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2023/05/01</td>
+                                <td>Expense</td>
+                                <td>Office Supplies</td>
+                                <td>$250</td>
+                                <td>Office Expenses</td>
+                                <td>Pending</td>
+                                <td>
+                                    <button>Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2023/05/01</td>
+                                <td>Expense</td>
+                                <td>Office Supplies</td>
+                                <td>$250</td>
+                                <td>Office Expenses</td>
+                                <td>Pending</td>
+                                <td>
+                                    <button>Edit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2023/05/01</td>
+                                <td>Expense</td>
+                                <td>Office Supplies</td>
+                                <td>$250</td>
+                                <td>Office Expenses</td>
+                                <td>Pending</td>
+                                <td>
+                                    <button>Edit</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="6">Total: 1.000<td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
